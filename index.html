@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"
+        <title>Asignacion 6 - Cristhian Carrasco</title>
+    </head>
+    <body>
+        <!--Encabezado -->
+        <header align="center">
+            <h1> Univesidad Tegnologíca de Panamá</h1>
+            <p> Introducción al Desarrollo Web</p>
+            <p> 
+                El desarrollo web es la disciplina que permite crear, mantener y mejorar sitios y aplicaciones que funcionan en Internet mediante código, 
+                combinando estructura,<br> diseño, interactividad y lógica para resolver necesidades reales de usuarios y empresas.
+            </p>
+        </header>
+<!--Imagen principal -->
+ <center> <img src="https://www.areaw3.com/wp-content/uploads/2016/02/grande6.jpg"></center>
+
+        <!--Enlaces -->
+        <section>
+            <ul>
+                <li> 
+                    <a href="#video">Ver video</a>
+                </li>
+                <li>
+                    <a href="https://desarrolladoresweb.org/html/introduccion-a-html/">Mas sobre HTML</a>
+                </li>
+                <li>
+                    <a href="mailto:alonso.gonzalez2@utp.ac.pa">Enviar un correo al profesor</a>
+                </li>
+            </ul>
+    
+          <br>
+            <h2> ¿Qué es una pagina web?</h2>
+                <p>Una página web, página electrónica o página digital es un documento de carácter multimediático, es decir, capaz de incluir audio,
+                    <br> video, texto y sus combinaciones, que presenta su información de manera organizada y se encuentra alojado en internet. Se trata del formato básico de contenidos en la World Wide Web (WWW).
+                </p>
+
+            <h2> ¿Comó funciona una pagina web?</h2>
+            <p>Un sitio web es un conjunto de páginas web enlazadas entre sí, publicadas bajo un mismo nombre de dominio y accesibles a través de Internet mediante un navegador web.
+                <br>En esencia, un sitio web puede servir para compartir información, facilitar la interacción u ofrecer servicios digitales.</p>
+
+            <h2>Tipos de paginas web</h2>
+            <ul>
+                <li> <h3> Páginas web estáticas:</h3></li>
+                <p> Cuando hablamos de una página web estática nos referimos a aquellas que se crean con el lenguaje HTML y no contienen ninguna funcionalidad que permita al usuario interactuar con la página, excepto para leer el contenido.
+                    <br>Es una opción ideal cuando tienes un pequeño proyecto en el cual simplemente quieras informar a tus clientes con información de la empresa, productos o servicios, y sin necesidad de estar cambiando de forma constante el contenido de la web. La principal ventaja de este tipo de páginas web es la facilidad de desarrollo y lo económico que pueden llegar a ser, a diferencia de las dinámicas.</p>
+                
+                <li> <h3> Páginas web dinámicas:</h3></li>
+                <p>A diferencia de las estáticas, las páginas dinámicas están construidas con otros lenguajes de programación que, gracias a ellos, podemos ofrecer a los usuarios la posibilidad de cambiar el contenido, ya sea el texto, los menús o incluso las imágenes.Ser páginas mucho más complejas y con mayor posibilidad de desarrollo, contamos con algunas plataformas que nos facilitan esta labor.<br>
+                     Si es el caso de que quieres crear una tienda online, una web corporativa o un blog, existen gestores de contenido (CMS) como Magento o Wordpress que son los más indicados para poder realizar todas estas modificaciones.</p>
+                </ul>
+
+            <h2> Diferencia entre una aplicación web y un sitio web</h2>
+            <P>Aunque a las aplicaciones web y sitios web se accede a través de navegadores web, y a menudo se hace referencia a ellos indistintamente, existen algunas diferencias importantes entre ambos.<br>
+                Un sitio web es como un folleto. Está formado por páginas de información estática en un lugar o sección específica. <br>
+                Una app web o aplicación web es un programa de software que utilizas para realizar una tarea, pero suele estar incrustado en una web para que los usuarios puedan acceder a ella fácilmente sin tener que descargarla e instalarla.<br>
+                Tanto si quieres desarrollar un sitio web como una aplicación web (o ambos), este artículo te explicará todo lo que necesitas saber sobre las diferencias entre ellos: cómo se utilizan, cómo funcionan y cómo se construyen.</P>
+        </section>
+        <br>
+
+        <!--Video -->
+        <h4 id="video"> Videdo sobre el diseño web</h4>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/ELSm-G201Ls?si=-xzIVYh9SxgobiXe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <br>
+            <!--Audio -->
+        <h4>Auido sobre el diseño web</h4>
+        <audio controls>
+            <source src="audio.mp3.mpeg" type="audio/mpeg">
+            Tu navegador no soporta la etiqueta audio.
+        </audio>
+
+        <!--Formulario -->
+        <section>
+            <form>
+                <h4>Formulario de inscripcion para los estudiantes:</h4>
+                <label for="nombre">Ingrese su nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                <br><br>
+                <label for="apellido">Ingrese apellido:</label>
+                <input type="text" id="apellido" name="apellido" required>
+                <br><br>
+                <label for="contraseña">Ingrese su contraseña:</label>
+                <input type="password" id="conntraseña" name="contraseña" required>
+                <br><br>
+                <label for="correo">Ingrese su correo electronico:</label>
+                <input type="email" id="correo" name="correo" required>
+                <br><br>
+                <label for="fecha">Ingre su fecha de nacimiento:</label>
+                <input type="date" name="fecha" id="fechas" required>
+                <br><br>
+                <label for="cedula">Ingrese su cedula:</label>
+                <input type="number" name="cedula" id="cedula" required>
+                <br><br>
+                <label> Eliga su modalidad:</label>
+                <label for="presencial">Presencial</label>
+                <input type="radio" name="modalidad" id="presencial">
+                <label for="virtual">Virtual</label>
+                <input type="radio" name="modalidad" id="virtual">
+                <br><br>
+                <label for="comentario">Comentarios:</label>
+                <input type="textarea" name="comentario" id="comentario">
+                <br><br>
+                <input type="submit" value="Enviar">
+                <input type="reset">
+            </form>
+        </section>
+
+        <br><br><br>
+        <!--Tabla -->
+        <table border="3">
+            <tr>
+                <th>Tipos de páginas web</th>
+                <th>Descripción</th>
+                <th>Ejemplos</th>
+            </tr>
+
+            <tr>
+                <td>
+                    Paginas web dinámicas
+                </td>
+                <td>
+                    Las páginas de contenido dinámico sí que permiten cambiar su contenido a tu antojo, bien sea el texto, las imágenes, los menús, entre otros recursos.<br>
+                    En esta categoría, entran los sitios más complejos de desarrollar, pero que ofrecen muchas más funcionalidades para garantizar la mejor experiencia de usuario. <br>
+                    Los blogs o un gigantesco sitio de e-commerce son claros ejemplos.
+                    Los Dynamic Web Pages son los más versátiles, ¿el problema? <br> Su complejidad supone un costo mucho más elevado en comparación a los estáticos.
+                </td>
+                <td>
+                    <ul>
+                        <li> Redes sociales</li>
+                        <li>Comercio electrónico</li>
+                        <li>Plataformas de streaming </li>
+                    </ul>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    Páhinas web estáticas
+                </td>
+                <td>
+                    Una página web estática es un tipo de sitio web cuyo contenido es fijo y no cambia a menos que se realicen modificaciones manuales. <br>
+                    Estas páginas se componen principalmente de archivos HTML, CSS y, en ocasiones, JavaScript, y son ideales para presentar información de manera consistente,<br> como portafolios o catálogos. 
+                    A diferencia de las páginas dinámicas, las estáticas no permiten interacciones dinámicas ni conexión a bases de datos, lo que limita<br> su funcionalidad, pero ofrecen un rendimiento rápido y bajo costo de alojamiento
+                </td>
+                <td>
+                    <ul>
+                        <li>Blog personal</li>
+                        <li>Portafolio en linea</li>
+                        <li>Currículum vitae en linea</li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+<br><br><br>
+ <!--Pie de pagina -->
+        <footer align="center"> Desarrollo de software V - asignación#6 - Cristhian Carrasco</footer>
+
+
+
+    </body>
+</html>
